@@ -1,0 +1,251 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+.mainbx{
+    display: flex;
+    justify-content: center;
+    margin-top: 140px;
+}
+.column-bx{
+    height: 500px;
+    width: 920px;
+    display:flex;
+    
+}
+.sedans{
+    height: 500px;
+    width: 506px;
+    background-color: hsl(31, 77%, 52%);
+    border-top-left-radius:10px ;
+    border-bottom-left-radius:10px ;
+}
+.suvs{
+    height: 500px;
+    width: 506px;
+    background-color: hsl(184, 100%, 22%);
+}
+.luxury{
+    height: 500px;
+    width: 506px;
+    background-color: hsl(179, 100%, 13%);
+    border-top-right-radius:10px ;
+    border-bottom-right-radius:10px ;
+}
+img{
+    position:relative;
+    top:40px;
+    left:40px;
+}
+h1{
+    position: relative;
+    top: 70px;
+    left: 40px;
+    font-family: "Big Shoulders Display";
+    color:white;
+    text-transform: uppercase;
+}
+p{
+    font-family: "Lexend Deca";
+    color:hsla(0, 0%, 100%, 0.75);
+    position: relative;
+    top: 130px;
+    left: 40px;
+    font-weight: 300;
+    font-size: 14px;
+}
+button{
+    width:130px;
+    height:40px;
+    border-radius:20px;
+    font-family: "Big Shoulders Display";
+    font-size: 14px;
+    font-weight: 700;
+    background-color: white;
+    border: none;
+    position: relative;
+    top: 205px;
+    left: 40px;
+}
+.sedans > p{
+    margin-right: 120px;
+    word-spacing: 2px;
+}
+.suvs > p{
+    margin-right: 110px;
+    word-spacing: 2px;
+}
+.luxury > p{
+    margin-right: 100px;
+    word-spacing: 2px;
+}
+.sedans > button:hover{
+    color:hsl(31, 77%, 52%);
+    cursor: pointer;
+}
+.suvs > button:hover{
+    color:hsl(184, 100%, 22%);
+    cursor: pointer;
+}
+.luxury > button:hover{
+    color:hsl(179, 100%, 13%);
+    cursor: pointer;
+}
+@media screen and (min-width:300px) and (max-width:399px){
+    *{
+        margin: 0vw;
+        padding: 0vw;
+    }
+    html,body{
+        overflow-x:hidden;
+        height: 100%;
+    }
+    .column-bx{
+        display: flex;
+        flex-direction: column;
+        gap:0vw;
+        height: 400vw;
+        position: relative;
+        left: 7.5vw;
+        top:-20vw;
+        
+    }
+    .sedans{
+        height: 70%;
+        width: 85%;
+        border-top-left-radius: 2.5vw;
+        border-top-right-radius: 2.5vw;
+        border-bottom-left-radius:0vw;
+        
+    }
+    .suvs{
+        height: 70%;
+        width: 85%;
+    }
+    .luxury{
+        height: 70%;
+        width: 85%;
+        border-top-right-radius: 0vw;
+        border-bottom-right-radius: 2.5vw;
+        border-bottom-left-radius:2.5vw;
+    }
+    .sedans > p{
+        margin-right: 27vw;
+        line-height: 7vw;
+        word-spacing: 0vw;
+    }
+    .suvs > p{
+        margin-right: 27vw;
+        line-height: 7vw;
+        word-spacing: 0vw;
+    }
+    .luxury > p{
+        margin-right: 27vw;
+        line-height: 7vw;
+        word-spacing: 0vw;
+    }
+    button{
+        position: relative;
+        top: 50vw;
+        left: 13vw;
+    }
+}
+@media screen and (min-width:400px) and ( max-width:499px){
+    *{
+        margin: 0vw;
+        padding: 0vw;
+    }
+    html,body{
+        overflow-x:hidden;
+        height: 100%;
+    }
+    .column-bx{
+        display: flex;
+        flex-direction: column;
+        gap:0vw;
+        height: 400vw;
+        position: relative;
+        left: 7.5vw;
+        top:-20vw;
+        
+    }
+    .sedans{
+        height: 70%;
+        width: 85%;
+        border-top-left-radius: 2.5vw;
+        border-top-right-radius: 2.5vw;
+        border-bottom-left-radius:0vw;
+        
+    }
+    .suvs{
+        height: 70%;
+        width: 85%;
+    }
+    .luxury{
+        height: 70%;
+        width: 85%;
+        border-top-right-radius: 0vw;
+        border-bottom-right-radius: 2.5vw;
+        border-bottom-left-radius:2.5vw;
+    }
+    .sedans > p{
+        margin-right: 27vw;
+        line-height: 7vw;
+        word-spacing: 0vw;
+    }
+    .suvs > p{
+        margin-right: 27vw;
+        line-height: 7vw;
+        word-spacing: 0vw;
+    }
+    .luxury > p{
+        margin-right: 27vw;
+        line-height: 7vw;
+        word-spacing: 0vw;
+    }
+    button{
+        position: relative;
+        top: 50vw;
+        left: 13vw;
+    }
+}
+@media screen and (min-width:600px) and (max-width:800px){
+    html,body{
+        overflow-x: hidden;
+
+    }
+    .column-bx{
+        height: 100%;
+        width: 90%;
+        margin-top:-4vw;
+    }
+    .sedans > p{
+        margin-right: 10vw;
+    }
+    .suvs > p{
+        margin-right: 10vw;
+    }
+    .luxury > p{
+        margin-right: 7.8vw;
+    }
+}
+@media screen and (min-width:801px) and (max-width:1024px){
+    html,body{
+        overflow-x: hidden;
+
+    }
+    .column-bx{
+        height: 100%;
+        width: 90%;
+        margin-top:-3vw;
+    }
+    .sedans > p{
+        margin-right: 10vw;
+    }
+    .suvs > p{
+        margin-right: 10vw;
+    }
+    .luxury > p{
+        margin-right: 7.8vw;
+    }
+}
